@@ -6,6 +6,8 @@ Rails.application.configure do
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
+  config.secret_key = '6e397ff388ca9ea9143ac86423148ef6c9fa69e81c7c33dc687f096a859ad614f7e540748a6fe2ba46cca1c0f1b0cf78c2edf2262d7dfb8d4889ca282b422dcc'
+
   # Do not eager load code on boot.
   config.eager_load = false
 
