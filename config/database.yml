@@ -9,9 +9,8 @@ default: &default
   adapter: postgresql
   #username: postgres
   #password: root
-   username: rails
-    password: b01856e57822d14793710d477b31b1d7
-
+  username: rails
+  password: b01856e57822d14793710d477b31b1d7
   host: localhost
   port: 5432
 
@@ -21,8 +20,7 @@ development:
  # username: postgres
  # password: root
   username: rails
-   password: b01856e57822d14793710d477b31b1d7
-
+  password: b01856e57822d14793710d477b31b1d7
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
