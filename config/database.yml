@@ -25,9 +25,10 @@ development:
 test:
   <<: *default
   database: db/test.sqlite3
-
 production:
   <<: *default
-  username: postgres
-  password: root
+  #username: postgres
+  #password: root
+  username: rails
+  password: b01856e57822d14793710d477b31b1d7
 
